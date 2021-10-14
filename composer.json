@@ -1,0 +1,22 @@
+{
+    "name": "geniepress/twig",
+    "description": "Twig for the GeniePress framework",
+    "keywords": [
+        "framework",
+        "WordPress"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3.0|^8.0",
+        "twig/twig": "^3.3",
+        "geniepress/framework": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeniePress\\View\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
